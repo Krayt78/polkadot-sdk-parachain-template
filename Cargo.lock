@@ -3062,6 +3062,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "custom-pallet"
+version = "0.1.0"
+dependencies = [
+ "parity-scale-codec",
+ "polkadot-sdk-frame",
+ "rustc-hex",
+ "scale-info",
+ "serde",
+]
+
+[[package]]
 name = "cxx"
 version = "1.0.153"
 source = "registry+https://github.com/rust-lang/crates.io-index"

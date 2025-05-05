@@ -8,7 +8,7 @@ edition = "2021"
 [workspace]
 default-members = ["pallets/template", "runtime"]
 members = [
-    "node",
+    "node", "pallets/custom-pallet",
     "pallets/template",
     "runtime",
 ]
@@ -35,3 +35,4 @@ scale-info = { version = "2.11.1", default-features = false }
 smallvec = { version = "1.11.0", default-features = false }
 substrate-wasm-builder = { version = "25.0.0", default-features = false }
 frame = { version = "0.8.1", default-features = false, package = "polkadot-sdk-frame" }
+rustc-hex = { version = "2.1.0", default-features = false }
