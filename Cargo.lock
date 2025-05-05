@@ -14891,9 +14891,9 @@ dependencies = [
 
 [[package]]
 name = "sc-tracing-proc-macro"
-version = "11.0.0"
+version = "11.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "151cdf86d79abf22cf2a240a7ca95041c908dbd96c2ae9a818073042aa210964"
+checksum = "fb090b3a15c077b029619476b682ba8a31f391ee3f0b2c5f3f24366f53f6c538"
 dependencies = [
  "proc-macro-crate 3.3.0",
  "proc-macro2",
